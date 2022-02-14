@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Weather Forrecasting App</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section class="background">
+        <video src="pexels-louai-munajim-5669509.mp4" muted loop autoplay></video>
+    </section>
+    
+    <header>
+        <h2 class="logo">Weather App</h2>
+        <div class="toggle"></div>
+      </header>
+
+    <main id="app-container">
+        
+        <form id="search-form">
+            <input type="search" placeholder="Enter City Name" id="search-input" required autocomplete="on" />
+            <br>
+            </br>
+            <button id="search-button">Search</button>
+
+        </form>
+
+        <div id="location">
+            <p>__________</p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="./icons/sun.svg" alt="">
+            <p><span id="temp-value">___  </span> <span id="temp-unit">&#176c</span> </p>
+        </div>
+
+        <div id="climate">
+            <p>______</p>
+        </div>
+    </main>
+<script src="script.js">
+    </script>
+</body>
+
+</html>
